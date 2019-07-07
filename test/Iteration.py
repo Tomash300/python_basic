@@ -23,3 +23,5 @@ class My_Simple_Iter:
 if __name__ == '__main__':
     for i in My_Simple_Iter(10):
         print(i)
+
+    print('Test')
