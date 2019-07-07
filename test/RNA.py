@@ -5,6 +5,8 @@ transcription = {
     'A': 'U',
 }
 
+
+
 def transcribe_rna(dna):
     rna = ''
     if len(dna) != 4:
@@ -13,8 +15,10 @@ def transcribe_rna(dna):
         rna += transcription[letter]
     return rna
 
+
 def validate_dna(dna):
     return set(dna).issubset(set('GCTA'))
+
 
 def main():
     while True:
@@ -27,7 +31,7 @@ def main():
             continue
         rna = transcribe_rna(input_data)
         print(f' Your RNA {rna}')
-        return
+        return 
 
 
 if __name__ == '__main__':
