@@ -1,2 +1,2 @@
 # python_basic
-Some basic stuff
+Some python stuff
